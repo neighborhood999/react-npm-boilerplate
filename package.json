@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib .nyc_output || rm -rf lib .nyc_output",
-		"lint": "eslint src",
+    "lint": "eslint src",
     "test": "ava -v",
     "test:watch": "ava -v -- --watch",
     "test:cov": "nyc npm test",
