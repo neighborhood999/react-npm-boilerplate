@@ -15,7 +15,7 @@ $ npm install
 ```
 
 You can make react component and in other App import use it.  
-Publish to your npm packages and you can add to your dependencies.  
+Publish your npm packages to npmjs and you can add to your dependencies.  
 
 For example, if I add this component：
 
