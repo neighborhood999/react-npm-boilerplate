@@ -1,6 +1,6 @@
 {
   "name": "react-npm-boilerplate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Make your personal react component and you can import use it.",
   "main": "lib/index.js",
   "scripts": {
