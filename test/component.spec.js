@@ -3,7 +3,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Component from '../src/';
 
-test('Component\'s title should Hello World', t => {
+test('should render `Hello World` as title', t => {
   const component = shallow(<Component />);
 
   t.is(component.type(), 'h1');
