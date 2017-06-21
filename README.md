@@ -14,10 +14,9 @@ First, install package：
 $ npm install
 ```
 
-You can make react component and in other App import use it.  
-Publish your npm packages to npmjs and you can add to your dependencies.  
+You can create your react component and published on [npm](https://www.npmjs.com).
 
-For example, if I add this component：
+For example, if I already published and I want to use this component：
 
 ```js
 import React, { Component } from 'react';
@@ -32,13 +31,7 @@ export default class App extends Component {
 }
 ```
 
-and finally in website, you can see `Hello World` this title.
-
-## Lint
-
-```sh
-$ npm run lint
-```
+In your website, you can see `Hello World` as title.
 
 ## Test
 
